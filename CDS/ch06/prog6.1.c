@@ -46,7 +46,7 @@ element pop(StackADT *S) {
 
 void PrintStack(StackADT *S) {
     int i;
-    printf("Stack's top value is %d, Stack's contents is : \n",S->top);
+    printf("Stack's top value is %d, Stack's contents is : \n", S->top);
     
     if (S->top < 0) {
         printf("Stack is empty!\n");
@@ -78,7 +78,7 @@ int main(void) {
                 printf("push :");
                 scanf("%d", &Item.ItemKey);
                 push(&S1, Item);
-                printf("push¤H%d,", Item.ItemKey);
+                printf("push¤J%d,", Item.ItemKey);
                 PrintStack(&S1);
                 break;
             case 'O':
